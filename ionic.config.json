@@ -1,0 +1,8 @@
+{
+  "name": "mana",
+  "app_id": "f82b6ab0",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
