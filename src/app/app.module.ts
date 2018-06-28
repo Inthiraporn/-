@@ -28,6 +28,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { KdPageModule } from '../pages/kd/kd.module';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { UserData } from '../providers/user-data';
     SupportPage
   ],
   imports: [
+    KdPageModule,
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(ConferenceApp, {}, {

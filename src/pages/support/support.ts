@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
+import { KdPage } from '../kd/kd';
 
 
 @Component({
@@ -10,8 +11,10 @@ import { AlertController, NavController, ToastController } from 'ionic-angular';
 })
 export class SupportPage {
 
+  
   submitted: boolean = false;
   supportMessage: string;
+  goKD = KdPage;
 
   constructor(
     public navCtrl: NavController,
