@@ -7,7 +7,11 @@ import { PandaPage } from '../../pages/panda/panda';
 >>>>>>> Added PandaPage
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
+
 import { FourPage } from '../four/four';
+
+import { KdPage } from '../kd/kd';
+
 
 
 @Component({
@@ -16,9 +20,14 @@ import { FourPage } from '../four/four';
 })
 export class SupportPage {
 
+  
   submitted: boolean = false;
   supportMessage: string;
+
   kaewpage = KaewPage;
+
+  goKD = KdPage;
+
 
   gofour = FourPage;
   constructor(

@@ -33,6 +33,8 @@ import { KaewPage } from '../pages/kaew/kaew';
 import { PandaPage } from '../pages/panda/panda';
 
 
+import { KdPageModule } from '../pages/kd/kd.module';
+
 
 
 @NgModule({
@@ -57,6 +59,7 @@ import { PandaPage } from '../pages/panda/panda';
     PandaPage
   ],
   imports: [
+    KdPageModule,
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(ConferenceApp, {}, {
