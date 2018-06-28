@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { KaewPage } from '../kaew/kaew';
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
 
@@ -12,6 +13,9 @@ export class SupportPage {
 
   submitted: boolean = false;
   supportMessage: string;
+
+
+  kaewpage = KaewPage;
 
 
   constructor(
