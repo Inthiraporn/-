@@ -30,6 +30,8 @@ import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 import { Page1Page } from '../pages/page1/page1';
 import { FourPageModule } from '../pages/four/four.module';
+import { KaewPage } from '../pages/kaew/kaew';
+
 
 
 @NgModule({
@@ -49,7 +51,8 @@ import { FourPageModule } from '../pages/four/four.module';
     TabsPage,
     TutorialPage,
     SupportPage,
-    Page1Page
+    Page1Page,
+    KaewPage
   ],
   imports: [
     BrowserModule,
@@ -91,7 +94,9 @@ import { FourPageModule } from '../pages/four/four.module';
     TabsPage,
     TutorialPage,
     SupportPage,
-    Page1Page
+    Page1Page,
+    KaewPage,
+
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
