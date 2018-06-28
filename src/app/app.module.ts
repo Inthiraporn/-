@@ -35,6 +35,7 @@ import { PandaPage } from '../pages/panda/panda';
 
 import { KdPageModule } from '../pages/kd/kd.module';
 import { MimiPage } from '../pages/mimi/mimi';
+import { FourPageModule } from '../pages/four/four.module';
 
 
 
@@ -64,6 +65,7 @@ import { MimiPage } from '../pages/mimi/mimi';
     KdPageModule,
     BrowserModule,
     HttpModule,
+    FourPageModule,
     IonicModule.forRoot(ConferenceApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },
