@@ -13,6 +13,7 @@ import { FourPage } from '../four/four';
 import { KdPage } from '../kd/kd';
 
 import { MimiPage } from '../mimi/mimi';
+import { Hut1Page } from '../hut1/hut1';
 
 
 @Component({
@@ -81,7 +82,9 @@ export class SupportPage {
       alert.present();
     });
   }
-
+HutGo(){
+  this.navCtrl.push(Hut1Page);
+}
   GoPanda(){
     this.navCtrl.push(PandaPage);
   }
