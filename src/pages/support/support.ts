@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
+
 import { KaewPage } from '../kaew/kaew';
+
 import { PandaPage } from '../../pages/panda/panda';
+
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
 
@@ -9,6 +12,7 @@ import { FourPage } from '../four/four';
 
 import { KdPage } from '../kd/kd';
 
+import { MimiPage } from '../mimi/mimi';
 
 
 @Component({
@@ -80,5 +84,9 @@ export class SupportPage {
 
   GoPanda(){
     this.navCtrl.push(PandaPage);
+  }
+
+  mimigoto(){
+    this.navCtrl.push(MimiPage);
   }
 }

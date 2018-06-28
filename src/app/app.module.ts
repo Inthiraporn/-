@@ -34,6 +34,7 @@ import { PandaPage } from '../pages/panda/panda';
 
 
 import { KdPageModule } from '../pages/kd/kd.module';
+import { MimiPage } from '../pages/mimi/mimi';
 
 
 
@@ -56,7 +57,8 @@ import { KdPageModule } from '../pages/kd/kd.module';
     SupportPage,
     Page1Page,
     KaewPage,
-    PandaPage
+    PandaPage,
+    MimiPage
   ],
   imports: [
     KdPageModule,
@@ -100,7 +102,8 @@ import { KdPageModule } from '../pages/kd/kd.module';
     SupportPage,
     Page1Page,
     KaewPage,
-    PandaPage
+    PandaPage,
+    MimiPage
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
