@@ -29,6 +29,7 @@ import { SupportPage } from '../pages/support/support';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 import { Page1Page } from '../pages/page1/page1';
+import { FourPageModule } from '../pages/four/four.module';
 
 
 @NgModule({
@@ -53,6 +54,7 @@ import { Page1Page } from '../pages/page1/page1';
   imports: [
     BrowserModule,
     HttpModule,
+    FourPageModule,
     IonicModule.forRoot(ConferenceApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },

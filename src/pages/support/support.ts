@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
+import { FourPage } from '../four/four';
 
 
 @Component({
@@ -14,6 +15,7 @@ export class SupportPage {
   supportMessage: string;
 
 
+  gofour = FourPage;
   constructor(
     public navCtrl: NavController,
     public alertCtrl: AlertController,
