@@ -33,6 +33,8 @@ import { KaewPage } from '../pages/kaew/kaew';
 import { PandaPage } from '../pages/panda/panda';
 
 
+
+
 @NgModule({
   declarations: [
     ConferenceApp,
@@ -95,7 +97,6 @@ import { PandaPage } from '../pages/panda/panda';
     SupportPage,
     Page1Page,
     KaewPage,
-
     PandaPage
   ],
   providers: [
