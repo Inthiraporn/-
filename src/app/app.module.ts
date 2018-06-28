@@ -32,6 +32,8 @@ import { Page1Page } from '../pages/page1/page1';
 import { FourPageModule } from '../pages/four/four.module';
 import { KaewPage } from '../pages/kaew/kaew';
 
+import { KdPageModule } from '../pages/kd/kd.module';
+
 
 
 @NgModule({
@@ -55,6 +57,7 @@ import { KaewPage } from '../pages/kaew/kaew';
     KaewPage
   ],
   imports: [
+    KdPageModule,
     BrowserModule,
     HttpModule,
     FourPageModule,

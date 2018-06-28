@@ -28,7 +28,12 @@
 		<p ion-text [hidden]="supportQuestion.valid || submitted === false" color="danger" padding-left>
 			Support message is required
 		</p>
-
+		<div text-center>
+			<button ion-button icon-start [navPush]="goKD">
+				<ion-icon name='home'></ion-icon>
+				KD
+		  	</button>
+		</div>
 		<div padding>
 			<button ion-button block type="submit">Submit</button>
 			<button ion-button block color="secondary" [navPush]="kaewpage">OK, go to page kaew</button>
