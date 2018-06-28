@@ -36,6 +36,7 @@ import { PandaPage } from '../pages/panda/panda';
 import { KdPageModule } from '../pages/kd/kd.module';
 import { MimiPage } from '../pages/mimi/mimi';
 import { FourPageModule } from '../pages/four/four.module';
+import { Hut1Page } from '../pages/hut1/hut1';
 
 
 
