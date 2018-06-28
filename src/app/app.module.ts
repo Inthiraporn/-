@@ -60,7 +60,8 @@ import { Hut1Page } from '../pages/hut1/hut1';
     Page1Page,
     KaewPage,
     PandaPage,
-    MimiPage
+    MimiPage,
+    Hut1Page
   ],
   imports: [
     KdPageModule,
@@ -106,7 +107,8 @@ import { Hut1Page } from '../pages/hut1/hut1';
     Page1Page,
     KaewPage,
     PandaPage,
-    MimiPage
+    MimiPage,
+    Hut1Page
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
