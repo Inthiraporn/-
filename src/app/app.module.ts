@@ -28,9 +28,13 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+<<<<<<< HEAD
 import { Page1Page } from '../pages/page1/page1';
 import { KaewPage } from '../pages/kaew/kaew';
 
+=======
+import { PandaPage } from '../pages/panda/panda';
+>>>>>>> Added PandaPage
 
 
 @NgModule({
@@ -50,8 +54,12 @@ import { KaewPage } from '../pages/kaew/kaew';
     TabsPage,
     TutorialPage,
     SupportPage,
+<<<<<<< HEAD
     Page1Page,
     KaewPage
+=======
+    PandaPage
+>>>>>>> Added PandaPage
   ],
   imports: [
     BrowserModule,
@@ -92,9 +100,13 @@ import { KaewPage } from '../pages/kaew/kaew';
     TabsPage,
     TutorialPage,
     SupportPage,
+<<<<<<< HEAD
     Page1Page,
     KaewPage,
 
+=======
+    PandaPage
+>>>>>>> Added PandaPage
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
