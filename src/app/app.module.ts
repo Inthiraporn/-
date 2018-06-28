@@ -29,9 +29,8 @@ import { SupportPage } from '../pages/support/support';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 import { Page1Page } from '../pages/page1/page1';
-import { FourPageModule } from '../pages/four/four.module';
 import { KaewPage } from '../pages/kaew/kaew';
-
+import { PandaPage } from '../pages/panda/panda';
 
 
 @NgModule({
@@ -52,12 +51,12 @@ import { KaewPage } from '../pages/kaew/kaew';
     TutorialPage,
     SupportPage,
     Page1Page,
-    KaewPage
+    KaewPage,
+    PandaPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    FourPageModule,
     IonicModule.forRoot(ConferenceApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },
@@ -97,6 +96,7 @@ import { KaewPage } from '../pages/kaew/kaew';
     Page1Page,
     KaewPage,
 
+    PandaPage
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },
