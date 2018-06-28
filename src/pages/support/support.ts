@@ -13,10 +13,7 @@ export class SupportPage {
 
   submitted: boolean = false;
   supportMessage: string;
-
-
   kaewpage = KaewPage;
-
 
   constructor(
     public navCtrl: NavController,

@@ -52,7 +52,6 @@ import { KaewPage } from '../pages/kaew/kaew';
     SupportPage,
     Page1Page,
     KaewPage
-
   ],
   imports: [
     BrowserModule,
@@ -94,7 +93,7 @@ import { KaewPage } from '../pages/kaew/kaew';
     TutorialPage,
     SupportPage,
     Page1Page,
-    KaewPage
+    KaewPage,
 
   ],
   providers: [
