@@ -9,6 +9,7 @@ import { UserOptions } from '../../interfaces/user-options';
 
 import { TabsPage } from '../tabs-page/tabs-page';
 import { SignupPage } from '../signup/signup';
+import { Page1Page } from '../page1/page1';
 
 
 @Component({
@@ -30,7 +31,9 @@ export class LoginPage {
     }
   }
 
-  onSignup() {
-    this.navCtrl.push(SignupPage);
-  }
+  gotopage1(){
+    this.navCtrl.push(Page1Page)
+}
+
+  
 }
