@@ -28,6 +28,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { Page1Page } from '../pages/page1/page1';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage
+    SupportPage,
+    Page1Page
   ],
   imports: [
     BrowserModule,
@@ -86,7 +88,8 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     TabsPage,
     TutorialPage,
-    SupportPage
+    SupportPage,
+    Page1Page
   ],
   providers: [
     { provide: ErrorHandler, useClass: IonicErrorHandler },

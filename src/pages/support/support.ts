@@ -13,6 +13,7 @@ export class SupportPage {
   submitted: boolean = false;
   supportMessage: string;
 
+
   constructor(
     public navCtrl: NavController,
     public alertCtrl: AlertController,
