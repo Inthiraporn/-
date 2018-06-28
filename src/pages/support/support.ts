@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
-<<<<<<< HEAD
 import { KaewPage } from '../kaew/kaew';
-=======
 import { PandaPage } from '../../pages/panda/panda';
->>>>>>> Added PandaPage
 
 import { AlertController, NavController, ToastController } from 'ionic-angular';
 
